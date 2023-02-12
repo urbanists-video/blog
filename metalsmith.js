@@ -80,6 +80,8 @@ function msBuild() {
       })
     )
 
+    .use(markdown())
+
     .use((files, _, done) => {
       for (const file of Object.values(files)) {
         if (file.collection && file.collection.length) {
@@ -98,8 +100,6 @@ function msBuild() {
         },
       })
     )
-
-    .use(markdown())
 
     .use(permalinks())
 
