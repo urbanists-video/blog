@@ -1,0 +1,24 @@
+<header>
+  <div class="container">
+
+    <a class="home-link" href="/"><img src="/assets/images/logo.png" alt="urbanists.video logo"/> urbanists.video blog</a>
+
+    <div class="main-menu">
+      <ul>
+        {% for menuItem in nav.menu %}
+          <li>
+            <div>
+              {% if menuItem.url === "/" %}
+                {% set path = "home" %}
+              {% else %}
+                {% set path = menuItem.url %}
+              {% endif %}
+              <a href={{ menuItem.url}} class="{{ path | trimSlashes }}">{{ menuItem.label }}</a>
+            </div>
+          </li>
+        {% endfor %}
+      </ul>
+    </div>
+
+  </div>
+</header>

@@ -1,0 +1,15 @@
+{
+  "title": "Metalsmith Bare-bones Starter",
+  "description": "Metalsmith Starter with Nunjucks templating",
+  "author": "noreply@localhost",
+  "siteURL": "https://blog.urbanists.video/",
+  "siteOwner": "urbanists.video",
+  "validate": {
+    "google": "",
+    "ms": ""
+  },
+  "social": {
+    "linkedIn": "",
+    "github": ""
+  }
+}
