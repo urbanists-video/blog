@@ -1,7 +1,7 @@
 {
   "menu": [
     {
-      "label": "← urbanists.video",
+      "label": "← home",
       "url": "https://urbanists.video",
       "bodyClass": "home"
     }
