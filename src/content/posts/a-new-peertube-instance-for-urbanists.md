@@ -37,7 +37,7 @@ So I decided to move urbanists.video to DigitalOcean. I really want to ensure th
 
 > PeerTube should run happily on a virtual machine with 2 threads/vCPUs, [...] You will hugely benefit from at least a second thread though, because of transcoding.
 
-Videos are still moved to object storage on backblaze b2 after transcoding. That's been working very well, and even streaming 4k works great! Because b2 has free egress when proxied through a partner (such as Backblaze), transfer is free (just pay $0.005/gb/mo storage!).
+Videos are still moved to object storage on backblaze b2 after transcoding. That's been working very well, and even streaming 4k works great! Because b2 has free egress when proxied through a partner (such as Cloudflare), transfer is free (just pay $0.005/gb/mo storage!).
 
 Nightly backups of videos, misc assets, and postgres are all configured and running smoothly (3-2-1).
 
