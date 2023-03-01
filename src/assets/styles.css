@@ -103,7 +103,7 @@ footer {
 }
 
 pre[class*="language-"] {
-  background: #f3f3f3;
+  background: #252525;
   border-left: 2px solid #000;
   position: relative;
   font-size: 14px;
@@ -114,13 +114,17 @@ pre[class*="language-javascript"]:after {
   right: 0;
   content: "js";
   padding: 5px;
-  background-color: #f8f8f8;
+  background-color: #262626;
 }
 .token.operator {
   background: transparent;
 }
 
 .blog-list {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+
   list-style: none;
   margin: 0;
   padding: 0;
