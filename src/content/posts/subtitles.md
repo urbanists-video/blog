@@ -36,29 +36,29 @@ If the video opens in browser instead of downloading, simply right click the vid
 
 ![Save video as...](/assets/images/blog-images/save-video-as.png)
 
-## Install dependencies
+## Installation
 
-To install Vosk, you will need pip3. pip3 is bundled with Python 3.
+To install Vosk, you will need pip3. pip3 is bundled with Python 3. Additionally, you will need ffmpeg to extract audio from the video file.
 
-### Install pip3
+### Install dependencies
 
-If you don't have pip3:
+pip3 and ffmpeg are prerequisites.
 
 #### For macOS
 
 [Install Homebrew](https://brew.sh/), then run:
 
 ```bash
-brew install python3
+brew install python3 ffmpeg
 ```
 
 #### For Windows
 
-You can install python 3 via the Microsoft Store. Alternatively, download an install [from python.org](https://www.python.org/downloads/windows/).
+You can install python 3 via the Microsoft Store. Alternatively, download an install [from python.org](https://www.python.org/downloads/windows/). Then, [download and install ffmpeg](https://ffmpeg.org/download.html).
 
 ### Install Vosk
 
-Install Vosk with pip3:
+Once you have pip3 and ffmpeg, install Vosk:
 
 ```bash
 pip3 install vosk
