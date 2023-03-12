@@ -27,6 +27,8 @@ To get started, I'm going to try to explain all the various services and moving 
 
 I'll try to keep this document up-to-date. Feel free to help out and keep this document up to date as well!
 
+[![Diagram of services and how they relate](/assets/images/blog-images/infrastructure-diagram.png)](/assets/images/blog-images/infrastructure-diagram.png)
+
 ## So you want to be an admin
 
 Keep in mind that as an admin, you have access to sensitive data such as user emails, logs, etc so be sure to secure any device with access.
